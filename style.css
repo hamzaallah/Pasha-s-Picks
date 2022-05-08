@@ -38,23 +38,49 @@
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    justify-content: space-between;
-    padding-top: 100px;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 
 .main-content {
-    margin-left: 200px;
-    margin-right: 200px;
+    max-width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .giphy-embed {
     width: 240px;
     height: 240px;
-    margin-left: auto;
+    margin-left: 100px;
 }
 
-.main-content h1 {
-    justify-content: flex-end;
+.main-title {
+    flex-flow: column wrap;
+}
+
+.main-title h1 {
+    font-size: 60px;
+}
+
+.grossman {
+    display: block;
+    margin-top: 50px;
+}
+
+.grossman a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.grossman .button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+    background-color: #3882f6;
 }
